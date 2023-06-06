@@ -1,0 +1,22 @@
+{
+  "name": "casparhealth",
+  "version": "1.0.0",
+  "description": "End to End Web Automation on Cypress.io with BDD framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsalsid/CasparHealth_WebAutomation_Framework-.git"
+  },
+  "author": "Arsalan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsalsid/CasparHealth_WebAutomation_Framework-/issues"
+  },
+  "homepage": "https://github.com/arsalsid/CasparHealth_WebAutomation_Framework-#readme",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  }
+}
