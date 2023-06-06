@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arsalsid/CasparHealth_WebAutomation_Framework-#readme",
   "dependencies": {
-    "cypress": "^12.13.0"
+    "cypress": "^12.13.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
