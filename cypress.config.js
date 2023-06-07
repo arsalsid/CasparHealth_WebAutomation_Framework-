@@ -1,3 +1,4 @@
+const cypress = require("cypress");
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -5,5 +6,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    specPattern: 'cypress/integeration/*.js'
   },
 });
