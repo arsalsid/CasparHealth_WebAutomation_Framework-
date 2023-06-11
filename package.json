@@ -4,7 +4,8 @@
   "description": "End to End Web Automation on Cypress.io with BDD framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,13 @@
   "homepage": "https://github.com/arsalsid/CasparHealth_WebAutomation_Framework-#readme",
   "dependencies": {
     "cypress": "^12.13.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^2.8.8"
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
