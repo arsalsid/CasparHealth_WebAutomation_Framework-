@@ -8,6 +8,6 @@ module.exports = defineConfig({
     },
     specPattern: 'cypress/integeration/*.js',
     baseurl: 'https://app.caspar-health.com/en/user/sign_in',
-    screenshotOnRunFailure: 'cypress/screenshots/*.js'
+    screenshotOnRunFailure: true
   },
 });
